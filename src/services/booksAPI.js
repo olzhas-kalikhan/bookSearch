@@ -5,7 +5,7 @@
  */
 const getBookByIBSN = (IBSN) => {
   return new Promise((resolve, reject) => {
-    fetch(`http://openlibrary.org/api/volumes/brief/isbn/${IBSN}.json`)
+    fetch(`https://openlibrary.org/api/volumes/brief/isbn/${IBSN}.json`)
       .then((response) => response.json())
       .then((bookData) => resolve(bookData))
       .catch((err) => reject(err))
@@ -18,7 +18,7 @@ const getBookByIBSN = (IBSN) => {
  */
 const getBookBySearchTerm = (searchTerm) => {
   return new Promise((resolve, reject) => {
-    fetch(`http://openlibrary.org/search.json?title=${searchTerm}`)
+    fetch(`https://openlibrary.org/search.json?title=${searchTerm}`)
       .then((response) => response.json())
       .then((bookList) => resolve(bookList))
       .catch((err) => reject(err))
