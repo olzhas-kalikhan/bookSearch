@@ -1,0 +1,13 @@
+.book-list {
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 12vh 10% 0;
+}
+@media only screen and (max-width: 430px) {
+  .book-list {
+    width: 100%;
+  }
+}

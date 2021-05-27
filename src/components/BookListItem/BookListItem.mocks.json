@@ -1,0 +1,34 @@
+{
+  "has_fulltext": false,
+  "title": "Viewpoints",
+  "title_suggest": "Viewpoints",
+  "type": "work",
+  "ebook_count_i": 0,
+  "edition_count": 1,
+  "key": "/works/OL10738686W",
+  "last_modified_i": 1312329861,
+  "author_name": ["Hoover Institution on War, Revolution, and Peace."],
+  "author_key": ["OL1005286A"],
+  "seed": ["/books/OL16020492M", "/works/OL10738686W", "/authors/OL1005286A"],
+  "author_alternative_name": [
+    "Hoover Institution.",
+    "Hoover Institution on War, Revolution, and Peace. East Asian Collection.",
+    "Hoover Institution on War, Revolution, and Peace",
+    "Revolution, and Peace Hoover Institution on War",
+    "Hoover Institution on War, Revolution and Peace."
+  ],
+  "edition_key": ["OL16020492M"],
+  "text": [
+    "OL16020492M",
+    "Hoover Institution on War, Revolution, and Peace.",
+    "OL1005286A",
+    "Viewpoints",
+    "/works/OL10738686W",
+    "Viewpoints.",
+    "Hoover Institution.",
+    "Hoover Institution on War, Revolution, and Peace. East Asian Collection.",
+    "Hoover Institution on War, Revolution, and Peace",
+    "Revolution, and Peace Hoover Institution on War",
+    "Hoover Institution on War, Revolution and Peace."
+  ]
+}
